@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            overflow: hidden;
+        }
+        canvas{
+            position: absolute;
+        }
+        .reset{
+            margin-left: 85px;
+        }
+        .button{
+            z-index: 2;
+        }
+        .button-holder{
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-holder">
+        <button class="complete">Complete</button>
+        <button class="reset">Reset</button>
+    </div>
+    <script src="index.js" type="module"></script>
+</body>
+</html>
